@@ -1,6 +1,6 @@
-Cython
-ipdb
-ipython
-numpy
-py-cpuinfo
-pytest
+Cython==3.0.10
+ipdb==0.13.13
+ipython==8.23.0
+numpy==1.26.4
+py-cpuinfo==9.0.0
+pytest==8.1.1
