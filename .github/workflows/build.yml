@@ -15,6 +15,7 @@ jobs:
     name: Build wheels on ${{ matrix.os }} ${{ matrix.qemu }} ${{ matrix.musl }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os: ["ubuntu-latest", "windows-latest", "macos-latest", "ubuntu-24.04-arm"]
         qemu: ['']
